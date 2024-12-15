@@ -25,10 +25,31 @@
     padding: 10px 20px;
     width: 90%;
     margin: auto;
-    height: 110vh;
+    height: 120vh;
     background: linear-gradient(rgb(153, 0, 255),rgb(174, 0, 255));
     border-radius: 15px;
+    position: relative;
     margin-bottom: 300px;
+}
+
+/* slide image*/
+
+.slide-img{
+    text-align: center;
+    position: absolute;
+    margin: auto;
+}
+.slide-img img{
+    height: 400px;
+    width: 300px;
+    border-radius: 25px;
+    border: 1px solid white;
+    padding: 10px;
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.301);
+    transition: 1s;
+}
+.slide-img img:hover{
+    transform: scale(1.03);
 }
 
 /*Your-choise-navigation*/
@@ -73,6 +94,9 @@
     cursor: pointer;
     transition: 1s;
 }
+.your-info button:hover{
+    background-color: white;
+}
 .your-info button a{
     text-decoration: none;
     font-weight: bold;
@@ -80,46 +104,44 @@
     font-size: 20px;
     color: white;
 }
-.your-info button:hover{
-    background-color: white;
-}
 .your-info button a:hover{
-    color: rgb(174, 0, 255);
+    color: black;
 }
 
-/* slide image*/
-
-.slide-img{
-    text-align: center;
-}
-.slide-img img{
-    height: 400px;
-    width: 300px;
+.your-slide{
+    padding: 10px 10px;
+    border: 1px solid rgb(255, 255, 255);
+    width: 260px;
     border-radius: 25px;
-    border: 1px solid white;
-    padding: 10px;
-    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.301);
+    margin: auto;
     transition: 1s;
 }
-.slide-img img:hover{
-    transform: scale(1.03);
+
+.your-slide:hover{
+    transform: scale(1.02);
 }
 
-/*headding 2*/
-
-.your-headding2{
+.your-slide img{
+    height: 400px;
+    width: 250px;
+    border-radius: 25px;
     text-align: center;
 }
+
+
+/*your headding-2*/
+
 .your-headding2 h1{
+    text-align: center;
     font-size: 50px;
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.199);
+    color: rgb(153, 0, 255);
 }
 
-/*your-menu*/
+/*your menu*/
 
 .your-menu{
     text-align: center;
-    padding: 10px 20px;
-    border-bottom: 1px solid rgba(110, 110, 110, 0.404);
 }
 .your-menu a{
     padding: 5px 10px;
@@ -188,6 +210,7 @@
 .card-details button a:hover{
     color: white;
 }
+
 /*your-footer*/
 
 .your-footer{
