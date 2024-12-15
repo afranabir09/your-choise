@@ -1,15 +1,238 @@
 *{
    margin: 0;
    padding: 0;
+   font-family: "Saira Condensed", serif;
 }
+
+/*Top Possition*/
+
 .container{
     padding: 10px 20px;
+    font-family: "Saira Condensed", serif;
+    background-color: rgb(255, 255, 255);
 }
+
 .sub-container{
-    padding: 10px 20px;
+    padding: 10px 8px;
     border: 1px solid rgba(0, 0, 0, 0.13);
     box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.068);
     height: auto;
-    width: auto;
+    width: 100%;
     border-radius: 15px;
 }
+
+.sub2-container{
+    padding: 10px 20px;
+    width: 90%;
+    margin: auto;
+    height: 110vh;
+    background: linear-gradient(rgb(153, 0, 255),rgb(174, 0, 255));
+    border-radius: 15px;
+    margin-bottom: 300px;
+}
+
+/*Your-choise-navigation*/
+
+.your-nav{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.your-headding h2{
+    color: rgba(255, 255, 255, 0.904);
+}
+.your-headding h2 i{
+    transform: rotate(320deg);
+    margin-right: 10px;
+    color: rgba(255, 255, 255, 0.884);
+}
+.your-icon{
+    margin: 10px;
+}
+.your-icon a{
+    text-decoration: none;
+    margin: 5px;
+    color: rgba(255, 255, 255, 0.842);
+}
+
+/*your-choice-info*/
+
+.your-info{
+    text-align: center;
+    margin-top: 25px;
+}
+.your-info h1{
+    color: white;
+    font-size: 56px;
+}
+.your-info button{
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 1s;
+}
+.your-info button a{
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: white;
+}
+.your-info button:hover{
+    background-color: white;
+}
+.your-info button a:hover{
+    color: rgb(174, 0, 255);
+}
+
+/* slide image*/
+
+.slide-img{
+    text-align: center;
+}
+.slide-img img{
+    height: 400px;
+    width: 300px;
+    border-radius: 25px;
+    border: 1px solid white;
+    padding: 10px;
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.301);
+    transition: 1s;
+}
+.slide-img img:hover{
+    transform: scale(1.03);
+}
+
+/*headding 2*/
+
+.your-headding2{
+    text-align: center;
+}
+.your-headding2 h1{
+    font-size: 50px;
+}
+
+/*your-menu*/
+
+.your-menu{
+    text-align: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid rgba(110, 110, 110, 0.404);
+}
+.your-menu a{
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    transition: 1s;
+}
+.your-menu a:hover{
+    background-color: rgb(153, 0, 255);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+/*your-card*/
+
+.your-card{
+    padding: 10px 20px ;
+    width: 80%;
+    margin:20px auto;
+    border-radius: 10px;
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.267);
+    transition: 1s;
+}
+.your-card:hover{
+    transform: scale(1.02);
+}
+.img{
+    text-align: center;
+}
+.img img{
+    height: 150px;
+    width: 150px;
+}
+.card-details{
+    text-align: left;
+    margin-bottom: 10px;
+}
+.card-details h2{
+    color: rgba(0, 0, 0, 0.842);
+    font-size: 30px;
+}
+.card-details p{
+    color: rgba(0, 0, 0, 0.801);
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-bottom: 1px dotted gray;
+}
+.card-details button{
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgb(153, 0, 255);
+    border-radius: 25px;
+}
+.card-details button:hover{
+    background-color: rgb(174, 0, 255);
+    border: 0;
+}
+.card-details button a{
+    text-decoration: none;
+    color: rgb(174, 0, 255);
+    font-weight: bold;
+}
+.card-details button a:hover{
+    color: white;
+}
+/*your-footer*/
+
+.your-footer{
+    text-align: center;
+    margin-top: 25px;
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.411);
+    padding: 10px 20px;
+}
+.your-footer h1{
+    font-size: 40px;
+    color: rgb(153, 0, 255);
+    border-bottom: 1px dotted gray;
+}
+.your-footer p{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.your-footer h3{
+    font-size: 30px;
+    color: rgb(153, 0, 255);
+    border-bottom: 1px dotted gray;
+}
+.your-footer a{
+    font-size: 15px;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: rgb(153, 0, 255);
+    border: 1px solid rgb(153, 0, 255);
+    border-radius: 25px;
+    font-weight: bold;
+}
+.your-footer a:hover{
+    background-color: rgb(174, 0, 255);
+    color: white;
+    border: 0;
+}
+.footer-icon a{
+    color: rgb(255, 255, 255);
+    padding: 5px 13px ;
+    border: 0;
+    font-size: 25px;
+    background-color: rgb(153, 0, 255);
+    margin: 5px;
+}
+
+
+
+
