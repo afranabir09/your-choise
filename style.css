@@ -25,11 +25,11 @@
     padding: 10px 20px;
     width: 90%;
     margin: auto;
-    height: 120vh;
+    height:105vh;
     background: linear-gradient(rgb(153, 0, 255),rgb(174, 0, 255));
     border-radius: 15px;
     position: relative;
-    margin-bottom: 300px;
+    margin-bottom: 100px;
 }
 
 /* slide image*/
