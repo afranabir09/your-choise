@@ -7,30 +7,28 @@
 /*Top Possition*/
 
 .container{
-    padding: 10px 20px;
     font-family: "Saira Condensed", serif;
     background-color: rgb(255, 255, 255);
     margin: auto;
+    padding: 10px 50px;
 }
-
 .sub-container{
-    padding: 10px 8px;
-    border: 1px solid rgba(0, 0, 0, 0.13);
     box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.068);
     height: auto;
     width: 100%;
-    border-radius: 15px;
-    margin: auto;
+    margin: 5px auto;
+    padding: 9px 8px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.075);
 }
 
 .sub2-container{
     padding: 10px 20px;
-    width: 90%;
+    width: auto;
     margin: auto;
+    border-radius: 5px;
     height: auto;
     background: linear-gradient(rgb(153, 0, 255),rgb(174, 0, 255));
-    border-radius: 15px;
-    position: relative;
 }
 
 /*Your-choise-navigation*/
@@ -102,26 +100,20 @@
     color: white;
     font-size: 56px;
 }
-.your-info button{
-    padding: 10px 20px;
-    background-color: rgba(255, 255, 255, 0);
-    border: 2px solid white;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: 1s;
-}
-.your-info button:hover{
-    background-color: white;
-}
-.your-info button a{
+.your-info a{
     text-decoration: none;
-    font-weight: bold;
-    text-transform: capitalize;
-    font-size: 20px;
+    text-transform: uppercase;
     color: white;
+    font-weight: bold;
+    padding: 10px 20px ;
+    margin-bottom: 10px;
+    border: 2.5px solid white;
+    border-radius: 25px;
+    transition: 0.5s;
 }
-.your-info button a:hover{
-    color: black;
+.your-info a:hover{
+    background-color: white;
+    color: rgb(153, 0, 255);
 }
 
 .your-slide{
@@ -173,67 +165,77 @@
     color: rgb(255, 255, 255);
 }
 
-/*your-card*/
 
-.your-card{
-    padding: 10px 20px ;
-    width: 60%;
-    margin:20px auto;
-    border-radius: 10px;
-    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.267);
+/*card design*/
+
+
+.grid-container{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box{
+    width: 250px;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.158);
+    border-radius: 25px;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 10px;
     transition: 1s;
 }
-.your-card:hover{
-    transform: scale(1.02);
+.box:hover{
+    transform: scale(1.05);
+}
+.card{
+    padding: 10px;
 }
 .img{
     text-align: center;
 }
 .img img{
-    height: 150px;
-    width: 150px;
-}
-.card-details{
-    text-align: left;
-    margin-bottom: 10px;
+    height: 200px;
+    width: 100%;
 }
 .card-details h2{
-    color: rgba(0, 0, 0, 0.842);
-    font-size: 30px;
+    font-size: 20px;
+    color: rgb(174, 0, 255);
+    cursor: pointer;
 }
 .card-details p{
-    color: rgba(0, 0, 0, 0.801);
-    font-weight: bold;
-    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(255, 0, 106);
+    margin-bottom: 15px;
     border-bottom: 1px dotted gray;
 }
-.card-details button{
-    padding: 10px 20px;
-    margin-top: 10px;
-    background-color: rgba(255, 255, 255, 0);
-    border: 1px solid rgb(153, 0, 255);
-    border-radius: 25px;
-}
-.card-details button:hover{
-    background-color: rgb(174, 0, 255);
-    border: 0;
-}
-.card-details button a{
+.card-details a{
     text-decoration: none;
-    color: rgb(174, 0, 255);
     font-weight: bold;
+    border: 0;
+    border: 2.5px solid rgb(174, 0, 255);
+    padding: 5px 20px;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
 }
-.card-details button a:hover{
+.card-details a:hover{
+    background-color: rgb(174, 0, 255);
     color: white;
 }
 
+
 /*your-footer*/
+
 
 .your-footer{
     text-align: center;
     margin-top: 25px;
-    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.411);
+    background-color: rgba(0, 0, 0, 0.082);
     padding: 10px 20px;
+    border-radius: 10px;
 }
 .your-footer h1{
     font-size: 40px;
@@ -253,14 +255,19 @@
     text-align: center;
 }
 .your-footer summary{
-    color: white;
-    background-color: rgb(153, 0, 255);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     margin-bottom: 10px;
     font-weight: bold;
-    width: 50%;
+    width: 200px;
     margin: auto;
     padding: 5px;
+    border: 2.5px solid rgb(153, 0, 255);
+}
+.your-footer summary:hover{
+    background: rgb(153, 0, 255);
+    color: white;
 }
 .your-footer a:hover{
     background-color: rgb(174, 0, 255);
@@ -269,12 +276,12 @@
 }
 .footer-icon a{
     color: rgb(255, 255, 255);
-    padding: 5px 13px ;
+    padding: 5px 10px ;
     border: 0;
-    font-size: 25px;
-    background-color: rgb(153, 0, 255);
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.363);
     margin: 5px;
-    border-radius: 50px;
+    border-radius: 5px;
 }
 
 
