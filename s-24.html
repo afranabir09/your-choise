@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: "Saira Condensed", serif;
+        }
+        .container{
+            background-color:rgb(153, 0, 255);
+            height: auto;
+            width: auto;
+            padding: 10px 20px;
+        }
+        .headding-container{
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1px 20px;
+            background-color: white;
+            border-radius: 5px;
+        }
+        .headding-container h1{
+            color: rgb(153, 0, 255);
+            cursor: pointer;
+        }
+        .headding-container h1:hover{
+            color: rgb(174, 0, 255);
+        }
+        .icon a i{
+            color: rgb(153, 0, 255);
+            margin: 5px;
+        }
+
+        .card-contrainer{
+            padding: 10px 20px;
+            margin: 20px auto;
+            height: auto;
+            width: auto;
+            background-color: white;
+            border-radius: 5px;
+        }
+
+        .img{
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .img img{
+            height: 170px;
+            width: auto;
+            margin: 15px;
+            border-radius: 10px;
+            transition: 500ms;
+            border: 2.5px solid rgba(236, 236, 236, 0.521);
+            box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.527);
+        }
+        .img img:hover{
+            transform: scale(1.05);
+        }
+
+        .headding {
+            text-align: center;
+            margin-top: 25px;
+        }
+        .headding h1{
+            color: rgb(153, 0, 255);
+            cursor: pointer;
+            font-size: 46px;
+            border-bottom: 1px dotted rgba(0, 0, 0, 0.651);
+        }
+        .headding h1:hover{
+            color: rgb(255, 78, 107);
+        }
+        .details{
+            padding: 10px;
+            margin: 20px auto;
+            box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.438);
+            border-radius: 10px;
+            transition: 500ms;
+        }
+        .details:hover{
+            transform: scale(1.01);
+        }
+        .details h1{
+            font-size: 36px;
+            color: rgb(255, 78, 107);
+        }
+        .details h1:hover{
+            color: rgb(174, 0, 255);
+        }
+        .details h3{
+            color: rgba(0, 0, 0, 0.800);
+            font-size: 16px;
+            text-align: left;
+            font-weight: 500;
+        }
+        .details b{
+            color: black;
+            font-size: 20px;
+        }
+        .details b:hover{
+            color: rgb(153, 0, 255);
+        }
+       .headding p{
+            color: gray;
+            font-size: 20px;
+        }
+        .headding-btn{
+            margin-bottom: 20px;
+        }
+        .headding-btn a{
+            color: rgb(174, 0, 255);
+            font-weight: bold;
+            font-size: 20px;
+            text-decoration: none;
+            border: 2.5px solid rgb(153, 0, 255);
+            padding: 10px 20px;
+            border-radius: 25px;
+        }
+        .headding-btn a:hover{
+            background-color: rgb(174, 0, 255);
+            color: white;
+            border: 0;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bokor&family=Fredoka:wght@300..700&family=Geo:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kablammo&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lavishly+Yours&family=Markazi+Text:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=Passion+One:wght@400;700;900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Wet+Paint&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="container">
+    <div class="headding-container">
+        <h1>YOUR CHOICE</h1>
+        <div class="icon">
+            <a href=""><i class="fa-solid fa-bars"></i></a>
+            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+    </div>
+    <div class="card-contrainer">
+        <div class="img">
+            <img src="galaxy-s24-ultra.webp" alt="">
+            <img src="gsmarena_032.jpg" alt="">
+        </div>
+        <div class="headding">
+            <h1>Galaxy-S24-Ultra</h1>
+            <div class="details">
+                <h1>Product Details</h1><br>
+                <h3><b>Processor :</b> Octa-Core</h3>
+                <h3><b>Display :</b> 172.5mm (6.8" full rectangle) / 172.2mm (6.8" rounded corners)</h3>
+                <h3><b>Camera :</b> 12.0 MP , UHD 8K (7680 x 4320)@30fps</h3>
+                <h3><b>Storage/Memory :</b> 12GB/256GB</h3>
+                <h3><b>Network/Bearer :</b> 2G GSM, 3G WCDMA, 4G LTE FDD, 4G LTE TDD, 5G Sub6 FDD, 5G Sub6 TDD</h3>
+                <h3><b>Connectivity :</b> USB Type-C , USB 3.2 Gen 1 , GPS, Glonass, Beidou, Galileo, QZSS , Bluetooth v5.3 </h3>
+                <h3><b>Physical specification :</b> 162.3 x 79.0 x 8.6</h3>
+                <h3><b>Battery :</b> 5000 MAH</h3>
+            </div><br>
+            <div class="headding-btn">
+                <a href="">Order Now</a>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
