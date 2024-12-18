@@ -150,21 +150,27 @@
 
 .your-menu{
     text-align: center;
-}
-.your-menu a{
-    padding: 5px 10px;
-    text-decoration: none;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-    font-size: 15px;
-    transition: 1s;
-}
-.your-menu a:hover{
-    background-color: rgb(153, 0, 255);
-    border-radius: 5px;
-    color: rgb(255, 255, 255);
+    display: grid;
+    margin-bottom: 10px;
 }
 
+.your-menu a{
+    padding: 10px 20px;
+    border: 2.5px solid rgb(153, 0, 255);
+    border-radius: 25px;
+    margin: 10px auto;
+    width: 250px;
+    color: rgb(153, 0, 255);
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.your-menu a:hover{
+    background-color: rgb(174, 0, 255);
+    color: white;
+}
 
 /*card design*/
 
